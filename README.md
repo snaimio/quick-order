@@ -10,7 +10,14 @@
 
 <br/>
 
-**A native iOS food and coffee ordering application built with SwiftUI, order history persistence, preparation countdown timers, and interactive star ratings.**
+**A native iOS food and coffee ordering application built with SwiftUI, order history persistence, preparation countdown timers, and interactive customer satisfaction rating flows.**
+
+<br/>
+
+[Overview](#-technical-overview) •
+[Engineering Highlights](#-engineering-highlights) •
+[Setup & Run](#-setup--run) •
+[License](#-license)
 
 </div>
 
@@ -19,34 +26,43 @@
 ---
 
 ## 📌 Technical Overview
-**QuickOrder** demonstrates cohesive mobile UI design, view composition, model modeling (`OrderHistory.swift`), and real-time timer handling in SwiftUI.
 
-### 💼 Technical Highlights
-- **Modular View Hierarchy**: Decoupled views (`WelcomeView.swift`, `TimerView.swift`, `RatingView.swift`).
-- **Design Tokens & Extensions**: Custom Swift extensions for brand colors, responsive images, and date formatting.
-- **Order State Tracking**: Live order preparation countdown timer with interactive completion alerts.
+**QuickOrder** demonstrates mobile UX engineering, modular view composition, model modeling (`OrderHistory.swift`), and reactive real-time timer handling in SwiftUI. It provides users with an intuitive coffee and food ordering checkout pipeline with live order fulfillment tracking.
+
+---
+
+## 🏛️ Engineering Highlights
+
+- **Modular View Hierarchy**: Decoupled component architecture (`WelcomeView.swift`, `TimerView.swift`, `RatingView.swift`).
+- **Design Tokens & Extensions**: Custom Swift extensions for semantic brand colors, responsive image clipping, and formatted date representations.
+- **Order State & Preparation Tracking**: Live order fulfillment countdown timer with progress animations and interactive completion alerts.
+- **Interactive Review Flow**: Multi-criteria star rating and feedback submission component.
 
 ---
 
 ## 🚀 Setup & Run
-1. Clone the repository:
+
+### Prerequisites
+- **Xcode 15.0+**
+- **iOS 17.0+** Simulator or Physical Device
+
+### Steps
+1. **Clone the repository:**
    ```bash
-   git clone https://github.com/snaimio/iOSApp1.git
-   cd iOSApp1
+   git clone https://github.com/snaimio/quick-order.git
+   cd quick-order
+   ```
+
+2. **Open in Xcode:**
+   ```bash
    open iOSApp1.xcodeproj
    ```
-2. Run in Xcode (`⌘ + R`).
+
+3. **Build and Run:**
+   - Select an iOS Simulator (e.g., *iPhone 15*) and press **⌘ + R**.
 
 ---
 
 ## 📄 License
+
 This project is licensed under the [MIT License](LICENSE).
-
----
-
-## 👨‍💻 Author
-**Sheikh Naim**  
-*Mobile & Full-Stack Web Developer*  
-- **LinkedIn**: [linkedin.com/in/snaimio](https://www.linkedin.com/in/snaimio)  
-- **GitHub**: [@snaimio](https://github.com/snaimio)  
-- **Portfolio**: [snaimio.github.io](https://snaimio.github.io)
